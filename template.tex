@@ -1,0 +1,52 @@
+%-----------------------------------------------------------------
+%	SECTION
+%	!TEX root = ./../main.tex
+%-----------------------------------------------------------------
+\section{Section 1}
+\subsection{Subsection 1.1}
+
+%-----------------------------------------------------------------
+%	PLACEHOLDER FIGURE
+%-----------------------------------------------------------------
+\begin{figure}[h]
+	\centering
+	% \includegraphics[width=\textwidth]{./images/}
+	\textcolor{gray}{\rule{8cm}{4cm}}
+	\caption{Caption}
+	\label{fig:}
+\end{figure}
+
+%-----------------------------------------------------------------
+%	TABLES
+%-----------------------------------------------------------------
+\begin{table}[H]
+	\centering
+	\begin{tabular}{l c c}
+		\toprule
+		\toprule
+		& \multicolumn{2}{c}{From two to three} \\
+		\cmidrule(l){2-3}
+		Title 1 & Title 2 & Title 3 \\
+		\midrule
+		Something & Somthing else & Blah \\
+		Something & Somthing else & Blah \\
+		\bottomrule
+	\end{tabular}
+	\caption{Caption}
+	\label{tab:}
+\end{table}
+
+%-----------------------------------------------------------------
+\begin{table}[H]
+	\centering
+	\begin{tabularx}{0.9\textwidth}{cX}
+		\toprule
+		Title 1 & Title 2 \\
+		\midrule
+		Something & Very very very very very very very very very very very very very long text \\
+		Something $X$ & Short text \\
+		\bottomrule
+	\end{tabularx}
+	\caption{Caption}
+	\label{tab:}
+\end{table}
